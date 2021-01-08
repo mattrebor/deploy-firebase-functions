@@ -21,7 +21,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Deploy to Firebase
-      uses: mattrebor/deploy-firebase-functions@v1.0.1
+      uses: mattrebor/deploy-firebase-functions@v1.0.2
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 ```
